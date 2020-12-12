@@ -1,0 +1,35 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="Theme.AppCompat.Light"/>
+
+    <style name="EditTextWhite" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/editText_textSize</item>
+        <item name="android:textColorHint">@color/editText_white</item>
+        <item name="android:textColorPrimary">@color/editText_white</item>
+        <item name="colorControlNormal">@color/editText_white</item>
+        <item name="colorControlActivated">@color/editText_white</item>
+    </style>
+
+    <style name="EditTextBlack" parent="Theme.AppCompat.Light">
+        <item name="android:textSize">@dimen/editText_textSize</item>
+        <item name="android:textColorHint">@color/ediText_black</item>
+        <item name="android:textColorPrimary">@color/ediText_black</item>
+        <item name="colorControlNormal">@color/ediText_black</item>
+        <item name="colorControlActivated">@color/ediText_black</item>
+    </style>
+    
+    <style name="RaiseButtonDark" parent="Theme.AppCompat.Light">
+        <item name="colorButtonNormal">@color/colorPrimaryLight </item>
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+        <item name="android:textColor">@color/editText_white</item>
+    </style>
+</resources>
